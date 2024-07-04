@@ -4,7 +4,7 @@ from typing import List, Optional
 import databases
 import sqlalchemy
 
-DATABASE_URL = "postgresql://postgres:9927461550Lion@@localhost/property_db"
+DATABASE_URL = "postgresql://property_db_hpz4_user:0kjonSYQfnKoLkJLJrKtrMiWmSoZdpPS@dpg-cq3a8kcs1f4s73fc9rqg-a.oregon-postgres.render.com/property_db_hpz4"
 
 database = databases.Database(DATABASE_URL)
 metadata = sqlalchemy.MetaData()
